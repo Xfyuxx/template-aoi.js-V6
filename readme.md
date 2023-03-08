@@ -27,5 +27,9 @@ yarn add aoi.js
 ```
 node index.js atau npm run bot
 ```
+dan 
+```
+git clone https://github.com/Xfyuxx/template-aoi.js
+```
 
 # TEMPLATE BY : MYUKO#3339
