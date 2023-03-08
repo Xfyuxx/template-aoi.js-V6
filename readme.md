@@ -25,7 +25,7 @@ yarn add aoi.js
 ## cara run bot
 
 ```
-node index atau npm run bot
+node index.js atau npm run bot
 ```
 
 # TEMPLATE BY : MYUKO#3339
