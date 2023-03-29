@@ -8,7 +8,7 @@ const bot = new aoijs.AoiClient({
 });
 
 //variable 
-bot.variables(require("./handler/variables.js"));
+bot.variables(require("./handler/var.js"));
 
 //command handler
 const loader = new aoijs.LoadCommands(bot)
