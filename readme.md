@@ -32,8 +32,8 @@ dan
 git clone https://github.com/Xfyuxx/template-aoi.js
 ```
 
-# bikin code yang handler : 
-```
+## bikin code yang handler : 
+```js
 module.exports = {
 name:"", 
 code:``
