@@ -18,8 +18,8 @@
 ## cara install aoi.js
 
 ```
-npm i aoi.js
-yarn add aoi.js
+npm i aoi.js aoi.parser
+yarn add aoi.js aoi.parser
 ```
 
 ## cara run bot
