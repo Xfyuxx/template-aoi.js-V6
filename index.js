@@ -1,3 +1,4 @@
+const { setup } = require("aoi.parser");
 const aoijs = require("aoi.js");
 const {token, prefix} = require("./config.json")
 const bot = new aoijs.AoiClient({
@@ -13,3 +14,6 @@ bot.variables(require("./handler/var.js"));
 //command handler
 const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd,"./commands/")
+
+//aoi.parser
+aoijs.Util(setup)
