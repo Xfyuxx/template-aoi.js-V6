@@ -32,4 +32,12 @@ dan
 git clone https://github.com/Xfyuxx/template-aoi.js
 ```
 
+# bikin code yang handler : 
+```
+module.exports = {
+name:"", 
+code:``
+}
+```
+
 # TEMPLATE BY : MYUKO#3339
