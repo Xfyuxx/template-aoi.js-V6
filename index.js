@@ -16,4 +16,5 @@ const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd,"./commands/")
 
 //aoi.parser
-aoijs.Util(setup)
+const parser = aoijs.Util
+setup(parser)
