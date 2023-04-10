@@ -9,7 +9,7 @@ const bot = new aoijs.AoiClient({
 });
 
 //variable 
-bot.variables(require("./handler/var.js"));
+require("./handler/var.js")(bot);
 
 //command handler
 const loader = new aoijs.LoadCommands(bot)
