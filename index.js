@@ -1,7 +1,7 @@
 const { setup } = require("aoi.parser");
-const aoijs = require("aoi.js");
+const { AoiClient, LoadCommands, Util } = require("aoi.js");
 const {token, prefix} = require("./config.json")
-const bot = new aoijs.AoiClient({
+const bot = new AoiClient({
   token: token, // isi token 
   prefix: prefix,
   intents: ["MessageContent", "Guilds", "GuildMessages"],
@@ -12,9 +12,9 @@ const bot = new aoijs.AoiClient({
 require("./handler/var.js")(bot);
 
 //command handler
-const loader = new aoijs.LoadCommands(bot)
+const loader = new LoadCommands(bot)
 loader.load(bot.cmd,"./commands/")
 
 //aoi.parser
-const parser = aoijs.Util
-setup(parser)
+
+setup(Util)
